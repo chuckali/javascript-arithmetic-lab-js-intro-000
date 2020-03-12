@@ -1,9 +1,9 @@
 
-makeInt(string){
+function makeInt(string){
 
 return parseInt(string, 10)
 }
 
-preserveDecimal(string){
+function preserveDecimal(string){
   return parseFloat(string, 10)
 }
